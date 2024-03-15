@@ -40,3 +40,6 @@ for index, todo in enumerate(todos):
 
 # Create a text input for adding new todos
 st.text_input(label="New Todo", placeholder="Add new todo...", on_change=add_todo, key='new_todo')
+# Add a footer
+st.markdown('---')
+st.markdown('**Camera Application** developed with ❤️ by [Phuc Le](https://github.com/phucleit96)')
